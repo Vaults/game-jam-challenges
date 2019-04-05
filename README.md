@@ -1,4 +1,4 @@
-# Ludum dare challenges
+# Game jam challenges
 
 This repository contains [Ludum Dare](https://ldjam.com)-esque challenges. 
 
