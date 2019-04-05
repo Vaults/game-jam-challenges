@@ -1,0 +1,99 @@
+.textContent {
+  background-color: cornsilk;
+  width: 40%;
+  height: 300px;
+  max-height: 300px;
+  margin: auto;
+  border: 3px solid salmon;
+  border-radius: 5px;
+}
+
+.textContent {
+  text-align: center;
+  position: relative;
+}
+
+.textContent .speech {
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: Monaco, "Lucida Console", monospace;
+}
+
+.textContent .addendum {
+  margin: auto;
+  text-align: left;
+  width: 80%;
+  font-family: sans-serif;
+}
+
+.textContent button {
+  background-color: darkkhaki;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.textContent .alien {
+  width: 150px;
+  position: absolute;
+  image-rendering: pixelated;
+  animation-name: alien;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes alien {
+  0%   {left: 10px; bottom: 0}
+  25%  {left: 10px; bottom: 5px}
+  50%  {left: 15px; bottom: 5px}
+  75%  {left: 15px; bottom: 0}
+  100% {left: 10px; bottom: 0}
+}
+
+.allContent {
+  padding-top: 10%;
+}
+
+.control {
+  padding-top: 50px;
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: bisque;
+  font-family: Monaco, "Lucida Console", monospace;
+}
+
+.control-centered {
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notesContainer {
+  width: 400px;
+}
+.notes {
+  width: 80%;
+  height: 200px;
+  color: #eed3c3;
+  background-color: #333333;
+  border: 2px solid bisque;
+  border-radius: 2px;
+  outline: none
+}
+
+.dictionaryContainer a {
+  font-weight: bold;
+}
+.dictionaryContainer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dictionaryContainer td {
+  width: 170px;
+}

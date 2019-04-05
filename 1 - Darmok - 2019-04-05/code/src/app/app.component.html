@@ -1,0 +1,28 @@
+<div class="allContent">
+  <div class="textContent">
+    <img *ngIf="state.alien" class="alien" [src]="'assets/' + state.alien">
+    <div class="speech">{{state.response | alienTalk:dictionary}}</div>
+    <br>
+    <div class="addendum">{{state.addendum | typewriter | async}}</div>
+    <br>
+    <button *ngIf="!state.response || !state.answer" (click)="nextState()"> OK </button>
+  </div>
+  <div class="control">
+    <div class="control-centered">
+      <div class="notesContainer">
+        <label for="notes"><h2 class="notesTitle">Notes</h2></label>
+        <textarea name="notes" id="notes" class="notes" placeholder="type your notes here"></textarea>
+      </div>
+      <div class="dictionaryContainer">
+        <h2>Dictionary</h2>
+        <table>
+          <tr *ngFor="let item of dictionary | keyvalue">
+            <td>{{item.key}}</td>
+            <td><a (click)="process(item)">{{item.value}}</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
