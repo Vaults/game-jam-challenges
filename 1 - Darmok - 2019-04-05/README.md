@@ -18,6 +18,7 @@ The game turned out simple, but nice. Things learned:
 * Angular works well for simple click-based static-esque games.
 * It's totally possible to make something that is playable within a very short timespan
 * Learning a framework and having standard tools helps a lot to go faster
+* It's hard to create a game for someone that is not yourself.
 
 ## Running
 
