@@ -1,0 +1,37 @@
+<html lang="EN">
+<head>
+    <title>Seaing Blue</title>
+    <script src="bundle.js"></script>
+    <style>
+        canvas {
+            border: 3px #666666 solid;
+            border-radius: 30px;
+            padding: 0;
+            margin: auto;
+            display: block;
+            width: 90vh;
+            height: 90vh;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        @media all and (orientation: portrait) {
+            canvas {
+                width: 90vw;
+                height: 90vw;
+            }
+        }
+
+
+        body {
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="renderArea" width="80%" height="80%"></canvas>
+</body>
+</html>

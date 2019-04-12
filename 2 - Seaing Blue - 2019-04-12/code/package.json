@@ -1,0 +1,35 @@
+{
+  "name": "ecs",
+  "version": "1.0.0",
+  "description": "Simple typescript ecs implementation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack; cp src/assets/* dist/app/",
+    "start": "watch 'npm run build' './src' & reload --dir 'dist/app'",
+    "test": "mocha -r ts-node/register"
+  },
+  "author": "Vaults",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "reload": "^2.4.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000",
+    "watch": "^1.0.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "@types/uuid": "^3.4.4",
+    "uuid": "^3.3.2"
+  }
+}
