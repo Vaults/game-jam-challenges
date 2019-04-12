@@ -23,10 +23,10 @@ tweak them from the get-go
 
 Further feedback:
 
--if you click once it does an action instead of having to click and drag
--sprites could have 3 stages, like the walls could go from intact, cracked and then broken, and trees from sapling, small tree and then full tree
--a counter of your wood resource
--increased difficulty as more of the screen gets taken over by the player
+* if you click once it does an action instead of having to click and drag
+* sprites could have 3 stages, like the walls could go from intact, cracked and then broken, and trees from sapling, small tree and then full tree
+* a counter of your wood resource
+* increased difficulty as more of the screen gets taken over by the player
 
 
 ## Running
