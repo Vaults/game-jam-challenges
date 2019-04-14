@@ -28,6 +28,8 @@ Further feedback:
 * a counter of your wood resource
 * increased difficulty as more of the screen gets taken over by the player
 
+* Focus on educating the player, a small hint that mouse controls were the way to go and a 'you lose' screen would have helped. Hinting towards the next grokking moment.
+
 
 ## Running
 
