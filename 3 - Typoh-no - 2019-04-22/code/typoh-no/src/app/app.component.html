@@ -1,0 +1,20 @@
+<div class="body" *ngIf="!lost" [ngClass]="classes">
+  <div class="centered">
+    <h1 class="title" *ngIf="!started">Typoh-no! 🧀</h1>
+    <h3 class="type" [ngClass]="classes">"{{question}}"</h3>
+    <textarea #typo class="answer" rows="1" cols="60" disabled="{{disabled}}"
+              placeholder="{{placeholder}}{{started ? '' : ' ⌨️' }}" [(ngModel)]="typedText"
+              [class.red]="wrong"
+              (ngModelChange)="onChange($event)"
+              (keydown.enter)="$event.preventDefault()"
+    ></textarea>
+    <h4 class="red">{{wrong ? '⬅️!!': ''}}</h4>
+  </div>
+</div>
+<div class="lost" *ngIf="lost">
+  <div class="centered">
+    <h1 class="title">💀 oopsy whoopsy 💀 <br>🔄 F5</h1>
+  </div>
+</div>
+
+
