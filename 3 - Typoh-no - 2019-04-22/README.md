@@ -1,4 +1,4 @@
-# GAME-NAME
+# Typoh-no!
 
 * Topic: Panic
 * Start datetime: 2019-04-22 8:28
